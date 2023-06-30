@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root {
+  --primary-color: #c13e91;
+  --secondary-color: #000000;
+  --accent-color: #9754ab;
+  --shadow-color: #63789c;
+  --listing-color: #000000;
+}
+
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: #fcfcfc;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button.primary:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+

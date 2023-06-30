@@ -1,0 +1,111 @@
+.listing-photo {
+  height: 600px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 30px;
+  float: right;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin-top: 20px; 
+  position: relative; 
+  background: linear-gradient(to bottom, #f8c3cd, #52a8ad); 
+}
+
+.listing-photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #f8c3cd 50%, #52a8ad 50%); 
+  border-radius: 30px;
+}
+
+
+
+
+.listing-heading {
+  font-size: 48pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.listing-location::before {
+  content: url('/assets/location-pin.svg') / '';
+}
+
+.listing-location {
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.listing-features > .section-heading {
+  color: var(--secondary-color);
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.listing-features {
+  margin-bottom: 20px;
+}
+
+.listing-features li {
+  font-size: 14pt;
+}
+
+li {
+  list-style-type: none;
+}
+
+.listing-apply .section-heading {
+  font-size: 18pt;
+  margin-bottom: 15px;
+}
+
+label, input {
+  margin-top: 10px;
+  display: block;
+}
+
+label {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12pt;
+  font-style: italic;
+}
+
+input {
+  font-size: 16pt;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 400px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid .3px;
+}
+
+@media (max-width: 1024px) {
+  .listing-photo {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.background-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #f8c3cd, #52a8ad);
+  opacity: 1; 
+  z-index: -1;
+}
+
+.section-heading {
+  font-style: italic;
+}

@@ -1,0 +1,103 @@
+{
+    "locations": [
+    {
+    "id": 0,
+    "name": "Mercedes G63 AMG",
+    "city": "Chicago",
+    "state": "IL",
+    "photo": "/assets/7K1A5572-scaled.jpg",
+    "price": "1800000",
+    "mileage": "10000",
+    "year": "2018",
+    "color": "Black"
+    },
+    {
+    "id": 1,
+    "name": "Bugatti Chiron",
+    "city": "Santa Monica",
+    "state": "CA",
+    "photo": "/assets/1200px-Bugatti_Chiron_(36559710091).jpg",
+    "price": "30800000",
+    "mileage": "5000",
+    "year": "2022",
+    "color": "Blue"
+    },
+    {
+    "id": 2,
+    "name": "Audi RS6",
+    "city": "Juneau",
+    "state": "AK",
+    "photo": "/assets/ABT_RS6-LE_Presse-1.jpg",
+    "price": "1400000",
+    "mileage": "60000",
+    "year": "2023",
+    "color": "Red"
+    },
+    {
+    "id": 3,
+    "name": "BMW M4",
+    "city": "Chicago",
+    "state": "IL",
+    "photo": "/assets/bmw-3-series-cs-m-automobiles-sp-desktop.jpg",
+    "price": "2800000",
+    "mileage": "1000",
+    "year": "2022",
+    "color": "White"
+    },
+    {
+    "id": 4,
+    "name": "Bentley Continental GT",
+    "city": "Gary",
+    "state": "IN",
+    "photo": "/assets/Conti-GTC-2.jpg",
+    "price": "5400000",
+    "mileage": "15000",
+    "year": "2020",
+    "color": "Green"
+    },
+    {
+    "id": 5,
+    "name": "Astin Martin DB9",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "/assets/dsc08261_0.jpg",
+    "price": "3800000",
+    "mileage": "25000",
+    "year": "2017",
+    "color": "Blue"
+    },
+    {
+    "id": 6,
+    "name": "Ferarri LaFerarri",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "/assets/Ferrari-SF90-Stradale-1.jpg",
+    "price": "8000000",
+    "mileage": "2000",
+    "year": "2020",
+    "color": "Red"
+    },
+    {
+    "id": 7,
+    "name": "Maserati Ghibli",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "/assets/jl401373.jpg",
+    "price": "800000",
+    "mileage": "20000",
+    "year": "2021",
+    "color": "White"
+    },
+    {
+    "id": 8,
+    "name": "Lamborghini Aventador",
+    "city": "Oakland",
+    "state": "CA",
+    "photo": "/assets/Lamborghini_Aventador_LP700-4_Orange.jpg",
+    "price": "6200000",
+    "mileage": "80000",
+    "year": "2016",
+    "color": "Orange"
+    }
+    ]
+}

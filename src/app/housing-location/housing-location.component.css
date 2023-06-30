@@ -1,0 +1,100 @@
+.listing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 20px;
+  width: 2000px; 
+  margin: 0 auto; 
+}
+
+
+.router {
+  margin-left: 500px;
+
+}
+
+.listing {
+  flex: 0 0 calc(33.33% - 20px); 
+  margin-bottom: 20px;
+  margin-top: 30px;
+  
+}
+
+.listing-heading {
+  color: var(--listing-color);
+  padding: 10px 20px 0 20px;
+  font-size: xx-large;
+  margin-bottom: 10px;
+  margin-left: 500px;
+}
+
+.listing-photo {
+  height: 200px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out; 
+  margin-left: 500px;
+}
+
+.listing-photo:hover {
+  transform: scale(1.1); 
+}
+
+
+.listing-location {
+  font-size: large;
+  padding: 10px 20px 20px 20px;
+  
+}
+
+.listing-location::before {
+  content: url("/assets/location-pin.svg") / "";
+  
+}
+
+section.listing a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: var(--listing-color);
+  margin-left: 500px;
+  
+}
+
+section.listing a::after {
+  content: "\203A";
+  margin-left: 10px;
+}
+
+.listing-info {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+}
+
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #000; 
+  margin: 0;
+  margin-top: 40px;
+  margin-left: calc(50% - 50vw); 
+}
+
+
+.panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; 
+  width: 475px; 
+  background: linear-gradient(to bottom, #f8c3cd, #52a8ad);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+

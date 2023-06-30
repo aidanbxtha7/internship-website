@@ -1,0 +1,39 @@
+:host {
+  --content-padding: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: var(--content-padding);
+  box-shadow: 0px 1px 10px var(--shadow-color);
+  background-color: white; 
+  z-index: 999; 
+}
+
+.content {
+  padding: var(--content-padding);
+  margin-top: 80px; 
+}
+
+.brand-logo {
+  margin-right: 1800px;
+  width: 70px;
+  height: auto;
+  transition: transform 1s ease-in-out, width 1s ease-in-out;
+}
+
+.brand-logo:hover {
+  transform: rotate(360deg) scale(1.2);
+  width: 75px;
+}
+
+.heading {
+  margin-left: 100px;
+  font-size: 60px;
+}
